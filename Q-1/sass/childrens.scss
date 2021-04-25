@@ -72,3 +72,27 @@
     background-color: var(--grey-light);
   }
 }
+
+// FOOTER ---------->
+.footer {
+  font-size: 1.4rem;
+  height: 10rem;
+  border-top: var(--shadow);
+
+  .content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 3rem;
+  }
+
+  &__title {
+    font-size: 1.6rem;
+
+    &-style {
+      font-size: 2rem;
+      font-weight: bold;
+    }
+  }
+}

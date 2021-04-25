@@ -68,3 +68,19 @@ body {
     border-left: var(--shadow);
     flex: 0 0 20%;
     background-color: var(--grey-light); }
+
+.footer {
+  font-size: 1.4rem;
+  height: 10rem;
+  border-top: var(--shadow); }
+  .footer .content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 3rem; }
+  .footer__title {
+    font-size: 1.6rem; }
+    .footer__title-style {
+      font-size: 2rem;
+      font-weight: bold; }
